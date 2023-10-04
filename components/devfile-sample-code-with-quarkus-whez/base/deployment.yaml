@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-code-with-quarkus-whez
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads-stage/lucarval-tenant/devfile-sample-code-with-quarkus-2/devfile-sample-code-with-quarkus-whez@sha256:ee04ee3db9e8a0cae24952adabb467efb3f98a70644f8f67469c1d805c28c1c5
+      - image: quay.io/redhat-user-workloads-stage/lucarval-tenant/devfile-sample-code-with-quarkus-2/devfile-sample-code-with-quarkus-whez@sha256:7897148683f15816427059f7e2def81a61884e54fca68f98cd7808d4ae1bf138
         name: my-java-quarkus
         ports:
         - containerPort: 8081
